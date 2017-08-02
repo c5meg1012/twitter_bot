@@ -6,8 +6,7 @@ class Tweet
 
   def initialize
     @text = [
-      "あーあー、てすとてすと",
-      "あーあー、てすとてすと"
+      "#5000兆円欲しい！！"
     ]
 
     @client = Twitter::REST::Client.new do |config|
